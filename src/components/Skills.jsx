@@ -35,7 +35,7 @@ const Skills = () => {
             className="py-12 md:py-16 lg:py-24 px-4 sm:px-6 md:px-12 lg:px-[171px] bg-[#282C33]"
         >
             <div>
-                <div className="flex items-center gap-4 mb-12">
+                <div className="flex items-center gap-4 mb-12" data-aos="fade-right" data-aos-duration="800">
                     <h2 className="text-4xl text-[#C778DD] whitespace-nowrap">
                         #<span className="text-white">skills</span>
                     </h2>
@@ -47,10 +47,13 @@ const Skills = () => {
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 ml-auto max-w-xl items-start">
-                    {skillCategories.map((category) => (
+                    {skillCategories.map((category, idx) => (
                         <div
                             key={category.category}
                             className="border border-[#ABB2BF]"
+                            data-aos="flip-left"
+                            data-aos-duration="800"
+                            data-aos-delay={idx * 100}
                         >
                             <div className="px-3 md:px-4 py-2 border-b border-[#ABB2BF]">
                                 <h3 className="text-base md:text-lg text-white">

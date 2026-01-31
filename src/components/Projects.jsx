@@ -34,7 +34,7 @@ const Projects = () => {
             className="py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-12 lg:px-[171px] bg-[#282C33]"
         >
             <div>
-                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-8 md:mb-12 gap-4">
+                <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-8 md:mb-12 gap-4" data-aos="fade-up" data-aos-duration="800">
                     <div className="flex items-center gap-3 md:gap-6 w-full sm:w-auto">
                         <h2 className="text-2xl md:text-3xl lg:text-4xl text-[#C778DD] font-semibold whitespace-nowrap">
                             #<span className="bg-white bg-clip-text text-transparent">projects</span>
@@ -52,6 +52,9 @@ const Projects = () => {
                         <div
                             key={project.id}
                             className="border border-[#ABB2BF] bg-[#282C33] flex flex-col"
+                            data-aos="zoom-in"
+                            data-aos-duration="800"
+                            data-aos-delay={project.id * 100}
                         >
                             <div className="h-32 md:h-48 bg-[#282C33] flex items-center justify-center">
                                 <img src={project.img} alt="" className="h-full w-full object-cover" />

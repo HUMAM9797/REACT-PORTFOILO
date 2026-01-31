@@ -14,7 +14,7 @@ const Hero = () => {
             className="min-h-screen flex items-center bg-[#282C33] pt-16 px-4 sm:px-6 md:px-12 lg:px-[171px]"
         >
             <div className="flex flex-col lg:flex-row items-center w-full gap-8 md:gap-12 lg:gap-28">
-                <div className="w-full lg:w-auto">
+                <div className="w-full lg:w-auto" data-aos="fade-right" data-aos-duration="800">
                     <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white">
                         I am a <span className="bg-[#C778DD] bg-clip-text text-transparent">web designer</span> and
                     </h1>
@@ -34,7 +34,7 @@ const Hero = () => {
                     </button>
                 </div>
 
-                <div className="flex flex-col items-center w-full lg:w-auto max-w-md">
+                <div className="flex flex-col items-center w-full lg:w-auto max-w-md" data-aos="fade-left" data-aos-duration="800">
                     <img
                         src="/images/Group 47.png"
                         alt="Portfolio illustration"

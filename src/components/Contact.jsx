@@ -29,7 +29,7 @@ const Contact = () => {
                 className="grow py-12 md:py-16 lg:py-20 px-4 sm:px-6 md:px-12 lg:px-[171px]"
             >
                 <div className="max-w-7xl mx-auto">
-                    <div className="flex items-center gap-2 md:gap-4 mb-6 md:mb-8">
+                    <div className="flex items-center gap-2 md:gap-4 mb-6 md:mb-8" data-aos="fade-up" data-aos-duration="800">
                         <h2 className="text-2xl md:text-3xl lg:text-4xl text-white whitespace-nowrap">
                             <span className="text-[#c778dd]">#</span>contacts
                         </h2>
@@ -37,7 +37,7 @@ const Contact = () => {
                     </div>
 
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
-                        <div className="flex-1">
+                        <div className="flex-1" data-aos="fade-right" data-aos-duration="800">
                             <p className="text-[#ABB2BF] text-base md:text-lg leading-relaxed">
                                 I'm interested in freelance opportunities. However,
                                 if you have other requests or questions, don't hesitate
@@ -45,7 +45,7 @@ const Contact = () => {
                             </p>
                         </div>
 
-                        <div className="flex justify-start lg:justify-end">
+                        <div className="flex justify-start lg:justify-end" data-aos="fade-left" data-aos-duration="800">
                             <div className="border border-[#ABB2BF] max-w-sm p-4">
                                 <h3 className="text-white font-semibold mb-4 text-base md:text-lg">
                                     Message me here

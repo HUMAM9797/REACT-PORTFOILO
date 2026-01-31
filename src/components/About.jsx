@@ -12,7 +12,7 @@ const About = () => {
         >
             <div>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-20">
-                    <div className="order-2 lg:order-1">
+                    <div className="order-2 lg:order-1" data-aos="fade-right" data-aos-duration="800">
                         <div className="flex items-center gap-2 md:gap-4 mb-4 md:mb-6 border border-[#ABB2BF] w-full">
                             <h2 className="text-2xl md:text-3xl lg:text-4xl text-[#C778DD] whitespace-nowrap">
                                 #<span className="text-white">about-me</span>
@@ -35,7 +35,7 @@ const About = () => {
                         </button>
                     </div>
 
-                    <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
+                    <div className="order-1 lg:order-2 flex justify-center lg:justify-end" data-aos="fade-left" data-aos-duration="800">
                         <div className="border border-[#ABB2BF] overflow-hidden">
                             <img
                                 src="/images/Group 50.png"
